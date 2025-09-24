@@ -15,8 +15,6 @@ pkcs11_api/.env
 build/
 dist/
 
-# Documentation
-docs/
 
 # IDE
 .vscode/
