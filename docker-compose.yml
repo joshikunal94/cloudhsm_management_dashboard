@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cloudhsm-dashboard:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    environment:
+      - PKCS11_LIB=/opt/cloudhsm/lib/libcloudhsm_pkcs11.so
+    volumes:
+      - /tmp:/tmp
+    privileged: true
+    restart: unless-stopped

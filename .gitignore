@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+pkcs11_api/venv/
+pkcs11_api/__pycache__/
+pkcs11_api/app/__pycache__/
+
+# Database
+pkcs11_api/cloudhsm_sessions.db
+
+# Environment
+.env
+pkcs11_api/.env
+
+# Build
+build/
+dist/
+
+# Documentation
+docs/
+
+# IDE
+.vscode/
+.idea/
+.amazonq/
+
+# OS
+.DS_Store
+Thumbs.db
