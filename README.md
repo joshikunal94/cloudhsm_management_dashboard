@@ -22,7 +22,7 @@ Built with React on the frontend and FastAPI on the backend, using PyKCS11 to ta
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/cloudhsm-management-dashboard.git
+   git clone https://github.com/joshikunal94/cloudhsm_management_dashboard.git
    cd cloudhsm-management-dashboard
    ```
 
